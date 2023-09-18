@@ -2,7 +2,14 @@
 
 Este projeto foi criado com o objetivo de implementar algoritmos de busca em largura e busca em profundidade para resolver labirintos. Utilizando Python como linguagem base, a implementação inclui uma interface gráfica para tornar a visualização das soluções mais acessível e intuitiva.
 
-### Pré-requisitos:
+## Definições:
+### BFS (Breadth-First Search - Busca em Largura): 
+É um algoritmo de busca que explora todos os vértices vizinhos de um nó antes de explorar os vértices mais distantes. Ele começa a partir do nó inicial e se move gradualmente para fora, nível por nível, antes de passar para os níveis mais profundos. É útil para encontrar o caminho mais curto em um grafo não ponderado e também é usado em problemas de busca em árvores e grafos.
+
+### DFS (Depth-First Search - Busca em Profundidade): 
+É um algoritmo de busca que explora o máximo possível em profundidade antes de retroceder e explorar outras ramificações. Ele começa a partir do nó inicial e segue um único ramo até atingir o fim antes de retroceder e explorar outros ramos. O DFS é frequentemente implementado recursivamente e é útil para problemas de busca de soluções, como em árvores de decisão e labirintos.
+
+## Pré-requisitos:
 Antes de executar o projeto, você precisará ter instalado em sua máquina:
 
 - Python 3.x
